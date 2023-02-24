@@ -1,0 +1,10 @@
+
+ul li{
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    margin-left: 90px;
+    border: 4px solid #dec5b1;
+    text-align: center;
+    width: 150px;
+    margin-top: 0;
+}
