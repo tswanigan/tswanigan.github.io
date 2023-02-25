@@ -24,7 +24,7 @@ ul li{
     display:none;
     position: absolute; 
     top: 60px;
-    right: 400px;
+    right: 270px;
 }
 #navmenu ul ul li { float: none; }
 #navmenu li:hover > ul{ 
