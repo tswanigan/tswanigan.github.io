@@ -13,7 +13,7 @@ School/Term: University of Missouri-Columbia
 
 Developed: 02/10/2023
 
-Tested:  02/10/2023
+Tested:  03/1/2023
 
 -->
                <meta charset="utf-8">
@@ -23,13 +23,30 @@ Tested:  02/10/2023
                <link rel = "stylesheet" href="nav.css">
 </head>
 <body>
-    <nav>
-        <ul>
+    <li>
+    <nav class="navbar">
+        <div class="logo">TRS</div>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle">
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label> 
+        <div class="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#learn.html">Learn</a></li>
-        </ul>
+            <li class="learn">
+                <a href="#learn.html">Learn</a>
+
+                   <ul class="dropdown">
+                    <li><a href="resources.html">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                   </ul>
+           </li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="#contact.html">Contact</a></li>
+        </div>
+    </ul>
     </nav>
+    </li>
     <header>
         <h1>Home Page!</h1>
         <p>

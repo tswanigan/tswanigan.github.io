@@ -1,25 +1,49 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+    <!--
+
+Title: Activity 2
+
+Use:  Learn Page
+
+Author: Taylor Swanigan
+
+School/Term:  Universiity of Missouri-Columbia, Spring 2023
+
+Developed: 2/9/2023
+
+Tested: 3/1/2023 
+
+-->
     <link rel = "stylesheet" href="nav.css">
     <meta charset="utf-8">
     <title>Learn</title>
 </head>
 <body>
-<nav id="navmenu">
-        <ul id="navitems">
+<li>
+<nav class="navbar">
+    <div class="logo">TRS</div>
+    <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle">
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label> 
+    <div class="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li>
-                <a href="#learn.html">Learn</a>
-                    <ul>
-                     <li><a href="#">Link 1</a></li>
+            <li class="learn">
+                 <a href="#learn.html">Learn</a>
+
+                    <ul class="dropdown">
+                     <li><a href="resources.html">Link 1</a></li>
                      <li><a href="#">Link 2</a></li>
                      <li><a href="#">Link 3</a></li>
                     </ul>
-              
             </li>
-        </ul>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="#contact.html">Contact</a></li>
+        </div>
+    </ul>
     </nav>
+</li>
 </body>
 </html>

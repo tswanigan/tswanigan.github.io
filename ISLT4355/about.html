@@ -13,11 +13,13 @@ School/Term:  Universiity of Missouri-Columbia, Spring 2023
 
 Developed: 2/9/2023
 
-Tested: 2/9/2023 
+Tested: 3/1/2023 
 
 -->
-    <meta charset="utf-8">
-    <title>About Page</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="nav.css">
+            <link rel="stylesheet" href="style.css">
+            <title>About Page</title>
  <style>
         #first{
     width:200px;
@@ -31,10 +33,34 @@ Tested: 2/9/2023
 </head>
 
 <body>
+    <li>
+        <nav class="navbar">
+            <div class="logo">TRS</div>
+            <ul class="nav-links">
+                <input type="checkbox" id="checkbox_toggle">
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label> 
+            <div class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="learn">
+                         <a href="#learn.html">Learn</a>
+        
+                            <ul class="dropdown">
+                             <li><a href="resources.html">Link 1</a></li>
+                             <li><a href="#">Link 2</a></li>
+                             <li><a href="#">Link 3</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="#contact.html">Contact</a></li>
+                </div>
+            </ul>
+            </nav>
+        </li>
     <main>
 
         <p id="first"><a href="swaniganresume.pdf">Resume</a></p>
-        <h3>About Me!</h3>
+        <h1>About Me!</h1>
         <p>Hello, my name is Taylor Swanigan. I am a current sophomore at the University of Missouri-Columbia. 
             I graduated from St. Louis, MO high school, Rosati-Kain in 2021. 
             Currently, I am pursuing my Bachelors in Science and anticipate graduation in May of 2025. 
