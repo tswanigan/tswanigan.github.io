@@ -5,7 +5,7 @@
 
 Title: Activity 2
 
-Use:  Learn Page
+Use:  Resource Page
 
 Author: Taylor Swanigan
 
@@ -16,34 +16,89 @@ Developed: 2/9/2023
 Tested: 3/1/2023 
 
 -->
-    <link rel = "stylesheet" href="nav.css">
-    <meta charset="utf-8">
-    <title>Learn</title>
+               <meta charset="utf-8">
+               <title>Learn Page</title>
+               <link rel="stylesheet" href="style.css">
+               <link rel="stylesheet" href="nav.css">
+
 </head>
 <body>
-<li>
-<nav class="navbar">
-    <div class="logo">TRS</div>
-    <ul class="nav-links">
-        <input type="checkbox" id="checkbox_toggle">
-        <label for="checkbox_toggle" class="hamburger">&#9776;</label> 
-    <div class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="learn">
-                 <a href="#learn.html">Learn</a>
+    <li>
+        <nav class="navbar">
+            <div class="logo">TRS</div>
+            <ul class="nav-links">
+                <input type="checkbox" id="checkbox_toggle">
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label> 
+            <div class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="learn">
+                         <a href="#learn.html">Learn</a>
+        
+                            <ul class="dropdown">
+                             <li><a href="resources.html">Link 1</a></li>
+                             <li><a href="#">Link 2</a></li>
+                             <li><a href="#">Link 3</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="#contact.html">Contact</a></li>
+                </div>
+            </ul>
+            </nav>
+        </li>
+    <body>
+        <div class="grid">
+            <main class="learnmain">
+                <header>
+                    <h1 class="Learn">Let's Learn A Stitch</h1>
+                </header>
+            <div class="learnitem1">
+                <li class="l1">
+                    <h2>
+                        How To Single Crochet For Beginners!
+                    </h2>
+                </li>
+                <p class="para1">
+                    <p><strong>If you don’t already know, there are five basic crochet stitches.</strong>
+                        <br>The single crochet stitch is one of the first stitches you’ll want to 
+                        learn how to do in crochet. It is the most basic of all basic stitches, 
+                        yet you can use this single stitch to create so many different things. 
+                        Here, you will learn via picture tutorial how to single crochet. You will 
+                        need to know how to make a slip knot and the chain stitch to move forward. 
+                        Don't fret, found on the website, I linked a number of Youtube videos, I 
+                        found them to be most helpful! Check there first. When learning to crochet, 
+                        I prefer to teach my friends with lightly colored yarn and a 5 or 6 mm crochet 
+                        hook. The light color in yarn helps to see the stitch your hook will go into next. 
+                    </p>
+            <div class="learnitem2">
+                <li class="l2">
+                    <h2>Single Crochet into a Foundation Chain</h2>
+                </li>
+                <p class="para">
+                    <p><strong>
+                        Often, you’ll start a project with chain stitches 
+                        and a row of single crochet. Here’s how to do that:</strong>
+                        <ol class="steps1">
+                            <li>Make a slip knot and a foundation chain of 15 stitches. </li>
+                            <li>To make the first single crochet, insert the hook into the second chain from the hook. (Remember, we don’t count the chain that is around the hook.)</li>
+                            <li>Yarn over, and pull up a loop. </li>
+                            <li>Yarn over, and pull through both loops on the hook.</li>
+                            <li>Repeat Steps 2-4 to make a single crochet stitch in each of the remaining 14 chains. Be sure to work in the very last chain – it can be easy to miss.</li>
+                        </ol>
+                    </p>
+                
+            </div>
+            </div>
 
-                    <ul class="dropdown">
-                     <li><a href="resources.html">Link 1</a></li>
-                     <li><a href="#">Link 2</a></li>
-                     <li><a href="#">Link 3</a></li>
-                    </ul>
-            </li>
-            <li><a href="resources.html">Resources</a></li>
-            <li><a href="#contact.html">Contact</a></li>
+            </main>
         </div>
-    </ul>
-    </nav>
-</li>
+    </body>
+
+        
+<footer>
+        <p>© 2023 Copyright Taylor Swanigan trsd3m@missouri.edu. All Rights Reserved</p>
+</footer>
+
 </body>
 </html>

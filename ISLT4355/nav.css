@@ -63,9 +63,7 @@ li{
 .dropdown li:hover{
     background-color: #35848f;
 }
-.about,.home,.learn:hover .dropdown{
-    display: block;
-}
+
 input[type=checkbox]{
     display: none;
 }
@@ -103,6 +101,7 @@ input[type=checkbox]:checked~ .menu{
     left: 50%;
     top: 30px;
     transform: translateX(35%);
+    display: none;
 }
 .dropdown li:hover{
     background-color: #35848f;

@@ -11,11 +11,13 @@ li{color: coral;
 }
 h2{font-size: x-large;}
 
-header,h2{font-family:Didot
-
+header,h2{
+    font-family:Didot;
+    font-size: x-large;
+    text-align: center;
 }
 body{
-    width: 1500px; 
+    width: 100%;
     margin: 1em auto; 
 }
 p{
@@ -24,12 +26,12 @@ p{
     text-indent: 2cm;
     
 }
-div>.para:first-letter{
+div>.para1:first-letter{
     color: coral;
 }
 
 
-strong{font-family: Didot;
+.para1,strong{font-family: Didot;
        font-size: 25px;
        font-weight: 900;
        color:#35848f ;
@@ -37,11 +39,62 @@ strong{font-family: Didot;
 
 img{
     float: none;
-    margin-right: 1em;
-
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 a:link{
     color:#35848f ;
 }
 a:hover, a:focus { color: coral; } 
+
+
+.item1 {
+    grid-area: item1;
+    justify-self: center;
+    padding-left: 10px;
+}
+.item2 {
+    grid-area: item2;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.box{
+    display: block;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "item1"
+        "item2"
+        "aboutitem1"
+        "aboutitem2"
+        "resourceitem1"
+        "resourceitem2"
+        "resourceitem3"
+        "resourceitem4";
+}
+
+.resourceitem1{
+    margin: 3% auto;
+}
+.rs1{
+    margin: auto;
+    font-size: 1.5rem;
+    width: auto;
+    
+}
+.rs1 h2 {
+    font-size: 2.3rem;
+    text-align: center;
+}
+.rsmain{
+        width: 70%;
+        margin: 0 auto;
+        text-align: left;
+}
